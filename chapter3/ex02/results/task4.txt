@@ -1,19 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Verify that the `StayWell` database has six tables
-Reason: Expected:
-+--------------------+
-| Tables_in_StayWell |
-+--------------------+
-|       OFFICE       |
-|       OWNER        |
-|      PROPERTY      |
-|     RESIDENTS      |
-|  SERVICE_CATEGORY  |
-|  SERVICE_REQUEST   |
-+--------------------+
-Found:
-
-Error : AssertionError - 
-Timestamp: 2026-09-24 21:11:29.234545
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-24 21:12:21.979530
