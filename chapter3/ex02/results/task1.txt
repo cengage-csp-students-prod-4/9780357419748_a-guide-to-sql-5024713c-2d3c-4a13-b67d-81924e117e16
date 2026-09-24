@@ -20,11 +20,11 @@ Found:
 +-------------+--------------+------+-----+---------+-------+
 | PROPERTY_ID | decimal(2,0) |  NO  | PRI |  NULL   |       |
 | OFFICE_NUM  | decimal(2,0) | YES  |     |  NULL   |       |
-|   ADDRESS   | varchar(100) | YES  |     |  NULL   |       |
-|   SQR_FT    |   smallint   | YES  |     |  NULL   |       |
-|   FLOORS    |   tinyint    | YES  |     |  NULL   |       |
+|   ADDRESS   |   char(25)   | YES  |     |  NULL   |       |
+|   SQR_FT    | decimal(5,0) | YES  |     |  NULL   |       |
+|   FLOORS    | decimal(2,0) | YES  |     |  NULL   |       |
 | WEEKLY_RENT | decimal(6,2) | YES  |     |  NULL   |       |
 |  OWNER_NUM  |   char(5)    | YES  |     |  NULL   |       |
 +-------------+--------------+------+-----+---------+-------+
 Error : AssertionError - 
-Timestamp: 2026-09-24 21:00:40.904490
+Timestamp: 2026-09-24 21:01:53.296293
