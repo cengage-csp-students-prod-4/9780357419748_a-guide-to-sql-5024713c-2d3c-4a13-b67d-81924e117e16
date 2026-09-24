@@ -19,12 +19,12 @@ Found:
 |    Field    |     Type     | Null | Key | Default | Extra |
 +-------------+--------------+------+-----+---------+-------+
 | PROPERTY_ID | decimal(2,0) |  NO  | PRI |  NULL   |       |
-| OFFICE_NUM  | decimal(2,0) | YES  |     |  NULL   |       |
-|   ADDRESS   |   char(25)   | YES  |     |  NULL   |       |
-|   SQR_FT    | decimal(5,0) | YES  |     |  NULL   |       |
-|   FLOORS    | decimal(2,0) | YES  |     |  NULL   |       |
-| WEEKLY_RENT | decimal(6,2) | YES  |     |  NULL   |       |
-|  OWNER_NUM  |   char(5)    | YES  |     |  NULL   |       |
+| OFFICE_NUM  | decimal(2,0) |  NO  |     |  NULL   |       |
+|   ADDRESS   | varchar(100) |  NO  |     |  NULL   |       |
+|   SQR_FT    |   smallint   |  NO  |     |  NULL   |       |
+|   FLOORS    |   tinyint    |  NO  |     |  NULL   |       |
+| WEEKLY_RENT |   smallint   | YES  |     |  NULL   |       |
+|  OWNER_NUM  |   char(5)    |  NO  |     |  NULL   |       |
 +-------------+--------------+------+-----+---------+-------+
 Error : AssertionError - 
-Timestamp: 2026-09-24 21:01:53.296293
+Timestamp: 2026-09-24 21:02:39.426396
