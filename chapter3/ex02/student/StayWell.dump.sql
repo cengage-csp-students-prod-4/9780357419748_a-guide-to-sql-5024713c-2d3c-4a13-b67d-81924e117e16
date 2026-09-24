@@ -192,13 +192,13 @@ DROP TABLE IF EXISTS `SUMMER_SCHOOL_RENTALS`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `SUMMER_SCHOOL_RENTALS` (
-  `PROPERTY_ID` decimal(2,0) NOT NULL,
-  `OFFICE_NUM` decimal(2,0) DEFAULT NULL,
-  `ADDRESS` varchar(100) DEFAULT NULL,
-  `SQR_FT` smallint DEFAULT NULL,
-  `FLOORS` smallint DEFAULT NULL,
-  `WEEKLY_RENT` decimal(6,2) DEFAULT NULL,
-  `OWNER_NUM` char(5) DEFAULT NULL,
+  `PROPERTY_ID` decimal(10,0) NOT NULL,
+  `OFFICE_NUM` decimal(10,0) NOT NULL,
+  `ADDRESS` varchar(100) NOT NULL,
+  `SQR_FT` smallint NOT NULL,
+  `FLOORS` tinyint NOT NULL,
+  `WEEKLY_RENT` smallint DEFAULT NULL,
+  `OWNER_NUM` char(5) NOT NULL,
   PRIMARY KEY (`PROPERTY_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -225,4 +225,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-09-24 20:40:15
+-- Dump completed on 2026-09-24 20:46:17
