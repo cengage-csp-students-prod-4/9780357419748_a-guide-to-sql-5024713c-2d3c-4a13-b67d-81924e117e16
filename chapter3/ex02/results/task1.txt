@@ -23,8 +23,8 @@ Found:
 |   ADDRESS   | varchar(100) | YES  |     |  NULL   |       |
 |   SQR_FT    |   smallint   | YES  |     |  NULL   |       |
 |   FLOORS    |   tinyint    | YES  |     |  NULL   |       |
-| WEEKLY_RENT |   smallint   | YES  |     |  NULL   |       |
+| WEEKLY_RENT | decimal(6,2) | YES  |     |  NULL   |       |
 |  OWNER_NUM  |   char(5)    | YES  |     |  NULL   |       |
 +-------------+--------------+------+-----+---------+-------+
 Error : AssertionError - 
-Timestamp: 2026-09-24 20:59:18.752088
+Timestamp: 2026-09-24 21:00:40.904490
