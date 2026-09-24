@@ -192,8 +192,8 @@ DROP TABLE IF EXISTS `SUMMER_SCHOOL_RENTALS`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `SUMMER_SCHOOL_RENTALS` (
-  `PROPERTY_ID` decimal(2,0) NOT NULL,
-  `OFFICE_NUM` decimal(2,0) NOT NULL,
+  `PROPERTY_ID` decimal(10,0) NOT NULL,
+  `OFFICE_NUM` decimal(10,0) NOT NULL,
   `ADDRESS` varchar(100) NOT NULL,
   `SQR_FT` smallint NOT NULL,
   `FLOORS` tinyint NOT NULL,
@@ -225,4 +225,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-09-24 21:02:13
+-- Dump completed on 2026-09-24 21:02:57
