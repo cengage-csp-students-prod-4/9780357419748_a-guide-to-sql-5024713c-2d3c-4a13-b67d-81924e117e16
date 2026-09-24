@@ -15,16 +15,16 @@ Reason: Expected:
 |  OWNER_NUM  |    char(5)    | YES  |     |  NULL   |       |
 +-------------+---------------+------+-----+---------+-------+
 Found:
-+-------------+--------------+------+-----+---------+-------+
-|    Field    |     Type     | Null | Key | Default | Extra |
-+-------------+--------------+------+-----+---------+-------+
-| PROPERTY_ID | decimal(2,0) |  NO  | PRI |  NULL   |       |
-| OFFICE_NUM  | decimal(2,0) |  NO  |     |  NULL   |       |
-|   ADDRESS   | varchar(100) |  NO  |     |  NULL   |       |
-|   SQR_FT    |   smallint   |  NO  |     |  NULL   |       |
-|   FLOORS    |   tinyint    |  NO  |     |  NULL   |       |
-| WEEKLY_RENT |   smallint   | YES  |     |  NULL   |       |
-|  OWNER_NUM  |   char(5)    |  NO  |     |  NULL   |       |
-+-------------+--------------+------+-----+---------+-------+
++-------------+---------------+------+-----+---------+-------+
+|    Field    |     Type      | Null | Key | Default | Extra |
++-------------+---------------+------+-----+---------+-------+
+| PROPERTY_ID | decimal(10,0) |  NO  | PRI |  NULL   |       |
+| OFFICE_NUM  | decimal(10,0) |  NO  |     |  NULL   |       |
+|   ADDRESS   | varchar(100)  |  NO  |     |  NULL   |       |
+|   SQR_FT    |   smallint    |  NO  |     |  NULL   |       |
+|   FLOORS    |    tinyint    |  NO  |     |  NULL   |       |
+| WEEKLY_RENT |   smallint    | YES  |     |  NULL   |       |
+|  OWNER_NUM  |    char(5)    |  NO  |     |  NULL   |       |
++-------------+---------------+------+-----+---------+-------+
 Error : AssertionError - 
-Timestamp: 2026-09-24 21:02:39.426396
+Timestamp: 2026-09-24 21:03:28.220842
