@@ -1,0 +1,30 @@
+
+Status: FAILED!
+Check: 1
+Test: Create the `SUMMER_SCHOOL_RENTALS` table
+Reason: Expected:
++-------------+---------------+------+-----+---------+-------+
+|    Field    |     Type      | Null | Key | Default | Extra |
++-------------+---------------+------+-----+---------+-------+
+| PROPERTY_ID | decimal(10,0) |  NO  | PRI |  NULL   |       |
+| OFFICE_NUM  | decimal(10,0) | YES  |     |  NULL   |       |
+|   ADDRESS   | varchar(100)  | YES  |     |  NULL   |       |
+|   SQR_FT    |   smallint    | YES  |     |  NULL   |       |
+|   FLOORS    |    tinyint    | YES  |     |  NULL   |       |
+| WEEKLY_RENT |   smallint    | YES  |     |  NULL   |       |
+|  OWNER_NUM  |    char(5)    | YES  |     |  NULL   |       |
++-------------+---------------+------+-----+---------+-------+
+Found:
++-------------+--------------+------+-----+---------+-------+
+|    Field    |     Type     | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| PROPERTY_ID | decimal(2,0) |  NO  | PRI |  NULL   |       |
+| OFFICE_NUM  | decimal(2,0) | YES  |     |  NULL   |       |
+|   ADDRESS   | varchar(100) | YES  |     |  NULL   |       |
+|   SQR_FT    |   smallint   | YES  |     |  NULL   |       |
+|   FLOORS    |   smallint   | YES  |     |  NULL   |       |
+| WEEKLY_RENT | decimal(6,2) | YES  |     |  NULL   |       |
+|  OWNER_NUM  |   char(5)    | YES  |     |  NULL   |       |
++-------------+--------------+------+-----+---------+-------+
+Error : AssertionError - 
+Timestamp: 2026-09-24 20:40:41.443997
