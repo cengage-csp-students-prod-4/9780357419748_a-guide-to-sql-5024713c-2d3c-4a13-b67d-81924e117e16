@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 3:** List the first name, last name, and credit limit of customers with credit limits of **$1,000** or more
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-28 15:22:52.925248
