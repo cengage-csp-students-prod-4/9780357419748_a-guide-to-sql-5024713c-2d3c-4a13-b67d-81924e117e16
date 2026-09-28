@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 10:** Use the `IN` operator to list the item ID and description of each item in category `FSH` or `BRD`
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-28 15:38:51.456397
