@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 9:** List the item ID, description, and on-hand value for each item where on-hand value is at least **$1,500**
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-28 15:37:22.453700
