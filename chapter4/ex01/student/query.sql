@@ -1,1 +1,1 @@
--- Write your query here
+Select ITEM_ID, DESCRIPTION, PRICE From ITEM;
