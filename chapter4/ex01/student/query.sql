@@ -1,1 +1,1 @@
-Select ITEM_ID, DESCRIPTION, PRICE From ITEM;
+Select * From INVOICES;
