@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 2:** List all rows and columns for the complete `INVOICES` table
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-28 15:06:12.199676
