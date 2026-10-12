@@ -1,11 +1,12 @@
 SELECT 
-    i.INVOICE_NUM,
-    c.CUST_ID,
-    c.FIRST_NAME,
-    c.LAST_NAME
+    CUST_ID, 
+    FIRST_NAME, 
+    LAST_NAME
 FROM 
-    INVOICES i
-JOIN 
-    CUSTOMER c ON i.CUST_ID = c.CUST_ID
+    CUSTOMER
 WHERE 
-    i.INVOICE_DATE = '2021-11-15';
+    CUST_ID IN (
+        SELECT CUST_ID
+        FROM INVOICES
+        WHERE INVOICE_DATE = '2021-11-15'
+    );
