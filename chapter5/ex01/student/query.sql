@@ -1,1 +1,9 @@
--- Write your query here
+SELECT 
+    i.INVOICE_NUM,
+    i.INVOICE_DATE,
+    c.CUST_ID,
+    c.FIRST_NAME,
+    c.LAST_NAME
+FROM INVOICES i
+JOIN CUSTOMER c 
+    ON i.CUST_ID = c.CUST_ID; 
