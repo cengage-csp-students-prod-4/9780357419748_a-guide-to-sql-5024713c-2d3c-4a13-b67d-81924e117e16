@@ -1,0 +1,42 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 21:** For each sales rep, list the ID, first name, and last name for the customer, along with the sales rep first name, and sales rep last name
+Reason: Expected:
++--------+-----------+----------+---------+----------------+---------------+
+| REP_ID | REP_FIRST | REP_LAST | CUST_ID | CUSTOMER_FIRST | CUSTOMER_LAST |
++--------+-----------+----------+---------+----------------+---------------+
+|   05   |   Susan   |  Garcia  |   125   |      Joey      |     Smith     |
+|   05   |   Susan   |  Garcia  |   375   |    Melanie     |    Jackson    |
+|   05   |   Susan   |  Garcia  |   543   |     Angie      |   Hendricks   |
+|   05   |   Susan   |  Garcia  |   795   |     Randy      |  Blacksmith   |
+|   10   |  Richard  |  Miller  |   182   |     Billy      |    Rufton     |
+|   10   |  Richard  |  Miller  |   294   |    Samantha    |     Smith     |
+|   10   |  Richard  |  Miller  |   492   |     Elmer      |    Jackson    |
+|   10   |  Richard  |  Miller  |   721   |     Leslie     |     Smith     |
+|   15   |   Donna   |  Smith   |   227   |     Sandra     |    Pincher    |
+|   15   |   Donna   |  Smith   |   314   |      Tom       |    Rascal     |
+|   15   |   Donna   |  Smith   |   435   |     James      |   Gonzalez    |
+|   15   |   Donna   |  Smith   |   616   |     Sally      |     Cruz      |
+|   20   |  Daniel   | Jackson  |  NULL   |      NULL      |     NULL      |
++--------+-----------+----------+---------+----------------+---------------+
+Found:
++---------+------------+-----------+
+| CUST_ID | FIRST_NAME | LAST_NAME |
++---------+------------+-----------+
+|   795   |   Susan    |  Garcia   |
+|   543   |   Susan    |  Garcia   |
+|   375   |   Susan    |  Garcia   |
+|   125   |   Susan    |  Garcia   |
+|   721   |  Richard   |  Miller   |
+|   492   |  Richard   |  Miller   |
+|   294   |  Richard   |  Miller   |
+|   182   |  Richard   |  Miller   |
+|   616   |   Donna    |   Smith   |
+|   435   |   Donna    |   Smith   |
+|   314   |   Donna    |   Smith   |
+|   227   |   Donna    |   Smith   |
+|  NULL   |   Daniel   |  Jackson  |
++---------+------------+-----------+
+Error : AssertionError - 
+Timestamp: 2026-10-22 04:01:17.345964
