@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 3:** For each invoice, list the invoice number, invoice date, item ID, quantity ordered, and quoted price for each invoice line that makes up the invoice
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 01:07:34.519909
