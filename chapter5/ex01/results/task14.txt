@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 14:** List the invoice number and invoice date for each invoice that contains an invoice line for a **Wild Bird Food (25 lb)**
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 03:16:22.979612
