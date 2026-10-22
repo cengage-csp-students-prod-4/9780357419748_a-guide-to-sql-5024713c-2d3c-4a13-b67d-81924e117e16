@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 19:** For each item, list the item ID, description, units on hand, invoice number, and quantity ordered
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 03:53:58.179161
