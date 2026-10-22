@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 11:** Find the ID, first name, and last name of each customer that currently has an invoice on file for Wild Bird Food (25 lb)
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 03:07:58.220660
