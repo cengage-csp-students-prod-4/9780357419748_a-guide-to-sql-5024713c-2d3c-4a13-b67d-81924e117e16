@@ -1,0 +1,24 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 12:** List the item ID, description, and category for each pair of items that are in the same category
+Reason: Expected:
++----------+---------+-------------------------------+
+| CATEGORY | ITEM_ID |          DESCRIPTION          |
++----------+---------+-------------------------------+
+|   BRD    |  BC33   | Feathers Bird Cage (12x24x18) |
+|   BRD    |  KH81   |    Wild Bird Food (25 lb)     |
+|   CAT    |  CA75   |  Enclosed Cat Litter Station  |
+|   CAT    |  SP91   |       Small Pet Carrier       |
+|   FSH    |  FS42   |     Aquarium (55 Gallon)      |
+|   FSH    |  PF19   |       Pump & Filter Kit       |
++----------+---------+-------------------------------+
+Found:
++---------+------------+-----------+
+| CUST_ID | FIRST_NAME | LAST_NAME |
++---------+------------+-----------+
+|   182   |   Billy    |  Rufton   |
+|   435   |   James    | Gonzalez  |
++---------+------------+-----------+
+Error : AssertionError - 
+Timestamp: 2026-10-22 03:12:46.628954
