@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 20:** Repeat *Task 18* using the `ANY` operator
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 04:00:31.842993
