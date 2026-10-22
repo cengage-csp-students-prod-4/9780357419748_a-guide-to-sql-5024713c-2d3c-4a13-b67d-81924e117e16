@@ -14,11 +14,28 @@ Reason: Expected:
 |   FSH    |  PF19   |       Pump & Filter Kit       |
 +----------+---------+-------------------------------+
 Found:
-+---------+------------+-----------+
-| CUST_ID | FIRST_NAME | LAST_NAME |
-+---------+------------+-----------+
-|   182   |   Billy    |  Rufton   |
-|   435   |   James    | Gonzalez  |
-+---------+------------+-----------+
++---------+--------------------------+----------+
+| ITEM_ID |       DESCRIPTION        | CATEGORY |
++---------+--------------------------+----------+
+|  KH81   |  Wild Bird Food (25 lb)  |   BRD    |
+|  SP91   |    Small Pet Carrier     |   CAT    |
+|  DT12   |     Dog Toy Gift Set     |   DOG    |
+|  LD14   |  Locking Small Dog Door  |   DOG    |
+|  LP73   |    Large Pet Carrier     |   DOG    |
+|  UF39   | Underground Fence System |   DOG    |
+|  LD14   |  Locking Small Dog Door  |   DOG    |
+|  LP73   |    Large Pet Carrier     |   DOG    |
+|  UF39   | Underground Fence System |   DOG    |
+|  LP73   |    Large Pet Carrier     |   DOG    |
+|  UF39   | Underground Fence System |   DOG    |
+|  UF39   | Underground Fence System |   DOG    |
+|  PF19   |    Pump & Filter Kit     |   FSH    |
+|  FS39   |   Folding Saddle Stand   |   HOR    |
+|  QB92   |  Quilted Stable Blanket  |   HOR    |
+|  WB49   |  Insulated Water Bucket  |   HOR    |
+|  QB92   |  Quilted Stable Blanket  |   HOR    |
+|  WB49   |  Insulated Water Bucket  |   HOR    |
+|  WB49   |  Insulated Water Bucket  |   HOR    |
++---------+--------------------------+----------+
 Error : AssertionError - 
-Timestamp: 2026-10-22 03:12:46.628954
+Timestamp: 2026-10-22 03:13:32.009608
