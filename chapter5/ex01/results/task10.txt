@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 10:** Repeat *Task 9*, but this time do not use a subquery
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 03:00:40.108166
