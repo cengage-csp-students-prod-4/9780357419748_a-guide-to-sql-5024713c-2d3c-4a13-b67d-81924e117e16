@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 4:** Use the `IN` operator to find the ID, first name, and last name of each customer for which as invoice was created on **November 15, 2021**
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 01:08:58.700865
