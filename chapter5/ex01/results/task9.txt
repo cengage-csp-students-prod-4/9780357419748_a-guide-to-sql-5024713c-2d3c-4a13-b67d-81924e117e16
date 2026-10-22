@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 9:** Use a subquery to find the sales rep ID, first name, and last name of each sales rep who represents at least one customer with a credit limit of **$500**
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 02:32:43.218788
