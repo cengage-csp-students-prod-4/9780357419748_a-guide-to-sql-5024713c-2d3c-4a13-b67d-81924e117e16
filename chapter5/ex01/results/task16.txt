@@ -1,0 +1,20 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 16:** List the invoice number and invoice date for each invoice that was created for **James Gonzalez** and that contains an invoice line for **Wild Bird Food (25lb)**
+Reason: Expected:
++-------------+--------------+
+| INVOICE_NUM | INVOICE_DATE |
++-------------+--------------+
+|    14233    |  2021-11-18  |
++-------------+--------------+
+Found:
++-------------+--------------+
+| INVOICE_NUM | INVOICE_DATE |
++-------------+--------------+
+|    14228    |  2021-11-18  |
+|    14233    |  2021-11-18  |
+|    14224    |  2021-11-16  |
++-------------+--------------+
+Error : AssertionError - 
+Timestamp: 2026-10-22 03:32:31.357700
