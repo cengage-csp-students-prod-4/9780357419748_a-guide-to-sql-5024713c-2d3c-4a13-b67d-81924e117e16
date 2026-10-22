@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 8:** Repeat *Task 7*, but this time order the rows by category and then by invoice number
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-22 02:31:24.079400
