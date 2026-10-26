@@ -1,1 +1,10 @@
--- Write your query here
+SELECT 
+    p.OFFICE_NUM,
+    p.ADDRESS,
+    p.MONTHLY_RENT,
+    p.OWNER_NUM,
+    o.FIRST_NAME,
+    o.LAST_NAME
+FROM PROPERTY p
+JOIN OWNER o 
+    ON p.OWNER_NUM = o.OWNER_NUM;
