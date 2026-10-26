@@ -6,4 +6,4 @@ FROM PROPERTY p
 JOIN OWNER o 
     ON p.OWNER_NUM = o.OWNER_NUM
 WHERE o.STATE = 'WA' 
-   OR p.BDRMS = 2;
+  AND p.BDRMS = 2;
