@@ -1,19 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 7:** List the square footage, owner number, owner last name, and owner first name for each property managed by the StayWell-Columbia City office
-Reason: Expected:
-+--------+-----------+-----------+------------+
-| SQR_FT | OWNER_NUM | LAST_NAME | FIRST_NAME |
-+--------+-----------+-----------+------------+
-|  1600  |   BU106   |   Burke   |   Ernest   |
-|  2100  |   AK102   |   Aksoy   |   Ceyda    |
-|  1005  |   BI109   |  Bianchi  |   Nicole   |
-|  1750  |   KO104   | Kowalczyk |   Jakub    |
-|  1125  |   SI105   |   Sims    |   Haydon   |
-|  2125  |   MO100   |   Moore   |  Elle-May  |
-+--------+-----------+-----------+------------+
-Found:
-
-Error : AssertionError - 
-Timestamp: 2026-10-26 22:03:30.199143
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-26 22:05:46.745761
