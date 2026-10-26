@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 14:** List the address, square footage, owner number, service ID, number of estimated hours, and number of spent hours for each service request on which the category number is **4**
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-26 22:12:36.081019
