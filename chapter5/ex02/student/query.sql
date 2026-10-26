@@ -1,11 +1,9 @@
 SELECT 
-    p.SQR_FT,
-    p.OWNER_NUM,
-    o.LAST_NAME,
-    o.FIRST_NAME
+    p.OFFICE_NUM,
+    p.ADDRESS,
+    p.MONTHLY_RENT
 FROM PROPERTY p
-JOIN OFFICE off 
-    ON p.OFFICE_NUM = off.OFFICE_NUM
 JOIN OWNER o 
     ON p.OWNER_NUM = o.OWNER_NUM
-WHERE off.OFFICE_NAME = 'StayWell-Colombia City';
+WHERE o.STATE = 'WA' 
+   OR p.BDRMS = 2;
