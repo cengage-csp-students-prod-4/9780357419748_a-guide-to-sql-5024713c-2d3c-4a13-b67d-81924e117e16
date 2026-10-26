@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 13:** Find the service ID and property ID for each service request whose estimated hours is greater than the number of estimated hours on every service request on which the category number is **5**
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-26 22:11:43.221491
