@@ -1,0 +1,27 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 2:** For every completed or open service request, list the property ID, description, and status
+Reason: Expected:
++-------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+| PROPERTY_ID |                                          DESCRIPTION                                          |                                     STATUS                                     |
++-------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+|     11      |                    The second bedroom upstairs is not heating up at night.                    |    Problem has been confirmed. central heating engineer has been scheduled.    |
+|      1      |                         A new strip light is needed for the kitchen.                          |                                   Scheduled                                    |
+|      6      |                          The bathroom door does not close properly.                           |           Service rep has confirmed issue. Scheduled to be refitted.           |
+|      2      | New outlet has been requested for the first upstairs bedroom. (There is currently no outlet). |                                   Scheduled                                    |
+|      8      |                     New paint job requested for the common area (lounge).                     |                                      Open                                      |
+|      4      |                              Shower is dripping when not in use.                              |                 Problem confirmed. Plumber has been scheduled.                 |
+|      2      |                    Heating unit in the entrance smells like its burning.                     | Service rep confirmed the issue to be dust in the heating unit. To be cleaned. |
+|      9      |                             Kitchen sink does not drain properly.                             |                     Problem confirmed. Plumber scheduled.                      |
+|     12      |                                      New sofa requested.                                      |                                      Open                                      |
++-------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+Found:
++-------------+-------------------------------------------------------+--------+
+| PROPERTY_ID |                      DESCRIPTION                      | STATUS |
++-------------+-------------------------------------------------------+--------+
+|      8      | New paint job requested for the common area (lounge). |  Open  |
+|     12      |                  New sofa requested.                  |  Open  |
++-------------+-------------------------------------------------------+--------+
+Error : AssertionError - 
+Timestamp: 2026-10-26 21:45:12.294105
