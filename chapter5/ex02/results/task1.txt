@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 1:** For every property, list the management office number, address, monthly rent, owner number, owner’s first name, and owner’s last name
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-26 21:42:25.064309
