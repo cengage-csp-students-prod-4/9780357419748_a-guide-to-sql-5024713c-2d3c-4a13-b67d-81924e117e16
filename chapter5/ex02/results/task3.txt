@@ -1,22 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 3:** For every service request for janitorial work, list the property ID, management office number, address, estimated hours, spent hours, owner number, and owner’s last name
-Reason: Expected:
-+-------------+------------+------------------------+-----------+-------------+-----------+-----------+
-| PROPERTY_ID | OFFICE_NUM |        ADDRESS         | EST_HOURS | SPENT_HOURS | OWNER_NUM | LAST_NAME |
-+-------------+------------+------------------------+-----------+-------------+-----------+-----------+
-|     11      |     2      |   9531 Sherwood Rd.    |     2     |      1      |   JO110   |   Jones   |
-|      1      |     1      |   30 West Thomas Rd.   |     1     |      0      |   BU106   |   Burke   |
-|      6      |     1      |      8 Laurel Dr.      |     3     |      1      |   MO100   |   Moore   |
-|      2      |     1      |     782 Queen Ln.      |     1     |      0      |   AK102   |   Aksoy   |
-|      8      |     2      |  594 Leatherwood Dr.   |    10     |      0      |   KO104   | Kowalczyk |
-|      4      |     1      | 105 North Illinois Rd. |     4     |      2      |   KO104   | Kowalczyk |
-|      2      |     1      |     782 Queen Ln.      |     1     |      0      |   AK102   |   Aksoy   |
-|      9      |     2      |    504 Windsor Ave.    |     6     |      2      |   PA101   |   Patel   |
-|     12      |     2      |    2 Bow Ridge Ave.    |     2     |      0      |   RE107   |  Redman   |
-+-------------+------------+------------------------+-----------+-------------+-----------+-----------+
-Found:
-
-Error : AssertionError - 
-Timestamp: 2026-10-26 21:47:44.342040
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-26 21:53:08.451953
