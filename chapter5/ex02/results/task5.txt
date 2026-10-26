@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 5:** Repeat *Task 4*, but this time use the `EXISTS` operator in your query
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-26 21:56:45.189167
