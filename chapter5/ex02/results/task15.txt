@@ -1,0 +1,37 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 15:** Repeat *Task 14*, but this time be sure each property is included regardless of whether it currently has any service requests for category **4**
+Reason: Expected:
++------------------------+--------+-----------+------------+-----------+-------------+
+|        ADDRESS         | SQR_FT | OWNER_NUM | SERVICE_ID | EST_HOURS | SPENT_HOURS |
++------------------------+--------+-----------+------------+-----------+-------------+
+|   9531 Sherwood Rd.    |  1075  |   JO110   |     1      |     2     |      1      |
+|   30 West Thomas Rd.   |  1600  |   BU106   |     2      |     1     |      0      |
+|      8 Laurel Dr.      |  2125  |   MO100   |     3      |     3     |      1      |
+|     782 Queen Ln.      |  2100  |   AK102   |     4      |     1     |      0      |
+|  594 Leatherwood Dr.   |  2700  |   KO104   |     5      |    10     |      0      |
+| 105 North Illinois Rd. |  1750  |   KO104   |     6      |     4     |      2      |
+|     782 Queen Ln.      |  2100  |   AK102   |     7      |     1     |      0      |
+|    504 Windsor Ave.    |  700   |   PA101   |     8      |     6     |      2      |
+|    2 Bow Ridge Ave.    |  1400  |   RE107   |     9      |     2     |      0      |
++------------------------+--------+-----------+------------+-----------+-------------+
+Found:
++------------------------+--------+-----------+------------+-----------+-------------+
+|        ADDRESS         | SQR_FT | OWNER_NUM | SERVICE_ID | EST_HOURS | SPENT_HOURS |
++------------------------+--------+-----------+------------+-----------+-------------+
+|   30 West Thomas Rd.   |  1600  |   BU106   |     2      |     1     |      0      |
+|     782 Queen Ln.      |  2100  |   AK102   |     4      |     1     |      0      |
+|   9800 Sunbeam Ave.    |  1005  |   BI109   |    NULL    |   NULL    |    NULL     |
+| 105 North Illinois Rd. |  1750  |   KO104   |    NULL    |   NULL    |    NULL     |
+|      887 Vine Rd.      |  1125  |   SI105   |    NULL    |   NULL    |    NULL     |
+|      8 Laurel Dr.      |  2125  |   MO100   |    NULL    |   NULL    |    NULL     |
+|   447 Goldfield St.    |  1675  |   CO103   |    NULL    |   NULL    |    NULL     |
+|  594 Leatherwood Dr.   |  2700  |   KO104   |    NULL    |   NULL    |    NULL     |
+|    504 Windsor Ave.    |  700   |   PA101   |    NULL    |   NULL    |    NULL     |
+|     891 Alton Dr.      |  1300  |   LO108   |    NULL    |   NULL    |    NULL     |
+|   9531 Sherwood Rd.    |  1075  |   JO110   |    NULL    |   NULL    |    NULL     |
+|    2 Bow Ridge Ave.    |  1400  |   RE107   |    NULL    |   NULL    |    NULL     |
++------------------------+--------+-----------+------------+-----------+-------------+
+Error : AssertionError - 
+Timestamp: 2026-10-26 22:13:13.381550
