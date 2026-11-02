@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 2:** Insert all items from the `ITEM` table that are not in the category `CAT`
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-02 17:04:21.519837
