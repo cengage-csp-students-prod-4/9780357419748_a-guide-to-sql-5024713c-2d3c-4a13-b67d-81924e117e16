@@ -150,7 +150,7 @@ CREATE TABLE `NONCAT` (
 
 LOCK TABLES `NONCAT` WRITE;
 /*!40000 ALTER TABLE `NONCAT` DISABLE KEYS */;
-INSERT INTO `NONCAT` VALUES ('AD72','Dog Feeding Station',12,'DOG',79.99),('BC33','Feathers Bird Cage (12x24x18)',10,'BRD',83.99),('DT12','Dog Toy Gift Bonanza',27,'DOG',39.99),('FF17','Premium Fish Food',10,'FSH',11.95),('FS42','Aquarium (55 Gallon)',5,'FSH',124.99),('KH81','Wild Bird Food (25 lb)',24,'BRD',20.99),('LD14','Locking Small Dog Door',14,'DOG',49.99),('LP73','Large Pet Carrier',23,'DOG',59.99),('PF19','Pump & Filter Kit',5,'FSH',74.99),('UF39','Underground Fence System',7,'DOG',199.99);
+INSERT INTO `NONCAT` VALUES ('AD72','Dog Feeding Station',12,'DOG',79.99),('BC33','Feathers Bird Cage (12x24x18)',10,'BRD',83.99),('DT12','Dog Toy Gift Bonanza',27,'DOG',39.99),('FF17','Premium Fish Food',10,'FSH',11.95),('FS42','Aquarium (55 Gallon)',5,'FSH',124.99),('KH81','Wild Bird Food (25 lb)',24,'BRD',20.99),('LD14','Locking Small Dog Door',14,'DOG',49.99),('LP73','Large Pet Carrier',23,'DOG',59.99),('PF19','Pump & Filter Kit',5,'FSH',74.99),('UF39','Underground Fence System',7,NULL,199.99);
 /*!40000 ALTER TABLE `NONCAT` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -199,4 +199,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-02 17:11:13
+-- Dump completed on 2026-11-02 17:14:52
