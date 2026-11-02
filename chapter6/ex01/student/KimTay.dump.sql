@@ -128,34 +128,6 @@ INSERT INTO `ITEM` VALUES ('AD72','Dog Feeding Station',12,'DOG','B',79.99),('BC
 UNLOCK TABLES;
 
 --
--- Table structure for table `NONCAT`
---
-
-DROP TABLE IF EXISTS `NONCAT`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `NONCAT` (
-  `ITEM_ID` char(4) NOT NULL,
-  `DESCRIPTION` char(40) DEFAULT NULL,
-  `ON_HAND` int DEFAULT NULL,
-  `CATEGORY` char(3) DEFAULT NULL,
-  `PRICE` decimal(6,2) DEFAULT NULL,
-  `ON_HAND_VALUE` decimal(7,2) DEFAULT NULL,
-  PRIMARY KEY (`ITEM_ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `NONCAT`
---
-
-LOCK TABLES `NONCAT` WRITE;
-/*!40000 ALTER TABLE `NONCAT` DISABLE KEYS */;
-INSERT INTO `NONCAT` VALUES ('AD72','Dog Feeding Station',12,'DOG',79.99,959.88),('BC33','Feathers Bird Cage (12x24x18)',10,'BRD',83.99,839.90),('DT12','Dog Toy Gift Bonanza',27,'DOG',39.99,1079.73),('FF17','Premium Fish Food',10,'FSH',11.95,119.50),('FS42','Aquarium (55 Gallon)',5,'FSH',124.99,624.95),('KH81','Wild Bird Food (25 lb)',24,'BRD',20.99,503.76),('LD14','Locking Small Dog Door',14,'DOG',49.99,699.86),('LP73','Large Pet Carrier',23,'DOG',59.99,1379.77),('PF19','Pump & Filter Kit',5,'FSH',74.99,374.95),('UF39','Underground Fence System',7,NULL,199.99,1399.93);
-/*!40000 ALTER TABLE `NONCAT` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `SALES_REP`
 --
 
@@ -200,4 +172,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-02 17:19:19
+-- Dump completed on 2026-11-02 17:20:28
