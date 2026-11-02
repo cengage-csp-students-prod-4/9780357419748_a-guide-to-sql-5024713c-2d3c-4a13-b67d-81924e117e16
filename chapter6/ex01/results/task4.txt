@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 4:** In the `NONCAT` table, increase the price of each item in category `BRD` by **5%**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-02 17:06:24.013502
