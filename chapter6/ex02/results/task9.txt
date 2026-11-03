@@ -1,20 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 9:** Change the **OCCUPIED** column in the `LARGE_PROPERTY` table to **N** for `OWNER` `NUM` **KO104**
-Reason: Expected:
-+------------+------------------------+-------+--------+--------------+-----------+----------+
-| OFFICE_NUM |        ADDRESS         | BDRMS | FLOORS | MONTHLY_RENT | OWNER_NUM | OCCUPIED |
-+------------+------------------------+-------+--------+--------------+-----------+----------+
-|     1      | 105 North Illinois Rd. | NULL  |   1    |   1782.00    |   KO104   |    N     |
-|     2      |  594 Leatherwood Dr.   |   5   |   2    |   2871.00    |   KO104   |    N     |
-+------------+------------------------+-------+--------+--------------+-----------+----------+
-Found:
-+------------+------------------------+-------+--------+--------------+-----------+----------+
-| OFFICE_NUM |        ADDRESS         | BDRMS | FLOORS | MONTHLY_RENT | OWNER_NUM | OCCUPIED |
-+------------+------------------------+-------+--------+--------------+-----------+----------+
-|     1      | 105 North Illinois Rd. | NULL  |   1    |   1782.00    |   KO104   |    Y     |
-|     2      |  594 Leatherwood Dr.   |   5   |   2    |   2871.00    |   KO104   |    Y     |
-+------------+------------------------+-------+--------+--------------+-----------+----------+
-Error : AssertionError - 
-Timestamp: 2026-11-03 03:22:35.526563
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 03:36:56.079254
