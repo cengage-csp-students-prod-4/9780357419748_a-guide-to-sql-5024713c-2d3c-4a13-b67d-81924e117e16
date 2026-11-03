@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 10:** Change the **MONTHLY_RENT** column in the `LARGE_PROPERTY` table to reject `null` values
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 03:38:00.750478
