@@ -16,35 +16,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `LARGE_PROPERTY`
---
-
-DROP TABLE IF EXISTS `LARGE_PROPERTY`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `LARGE_PROPERTY` (
-  `OFFICE_NUM` decimal(2,0) NOT NULL,
-  `ADDRESS` char(25) NOT NULL,
-  `BDRMS` decimal(2,0) DEFAULT NULL,
-  `FLOORS` decimal(2,0) DEFAULT NULL,
-  `MONTHLY_RENT` decimal(6,2) NOT NULL,
-  `OWNER_NUM` char(5) DEFAULT NULL,
-  `OCCUPIED` char(1) DEFAULT NULL,
-  PRIMARY KEY (`OFFICE_NUM`,`ADDRESS`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `LARGE_PROPERTY`
---
-
-LOCK TABLES `LARGE_PROPERTY` WRITE;
-/*!40000 ALTER TABLE `LARGE_PROPERTY` DISABLE KEYS */;
-INSERT INTO `LARGE_PROPERTY` VALUES (1,'105 North Illinois Rd.',NULL,1,1782.00,'KO104','N'),(1,'2643 Lugsi Dr.',3,2,775.00,'MA111','Y'),(1,'782 Queen Ln.',4,2,2029.50,'AK102','Y'),(1,'8 Laurel Dr.',4,2,2178.00,'MO100','Y'),(2,'447 Goldfield St.',3,2,1831.50,'CO103','Y'),(2,'594 Leatherwood Dr.',5,2,2871.00,'KO104','N');
-/*!40000 ALTER TABLE `LARGE_PROPERTY` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `OFFICE`
 --
 
@@ -226,4 +197,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-03  3:39:07
+-- Dump completed on 2026-11-03  3:40:03
