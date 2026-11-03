@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Return a list of all the property IDs and the addresses of the properties that had plumbing service requests
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 03:50:02.016106
