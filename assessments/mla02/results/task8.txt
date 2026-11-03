@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Add **Yigit Yilmaz** to the `RESIDENTS` table
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 04:09:08.932359
