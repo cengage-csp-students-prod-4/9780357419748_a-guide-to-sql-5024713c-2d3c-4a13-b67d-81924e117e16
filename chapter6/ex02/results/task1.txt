@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 1:** Create a `LARGE_PROPERTY` table with the structure shown below
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 03:03:38.173880
