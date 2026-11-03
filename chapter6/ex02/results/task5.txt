@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 5:** Insert a row into the `LARGE_PROPERTY` table for a new property
+Reason: Expected:
++------------+----------------+-------+--------+--------------+-----------+
+| OFFICE_NUM |    ADDRESS     | BDRMS | FLOORS | MONTHLY_RENT | OWNER_NUM |
++------------+----------------+-------+--------+--------------+-----------+
+|     1      | 2643 Lugsi Dr. |   3   |   2    |    775.00    |   MA111   |
++------------+----------------+-------+--------+--------------+-----------+
+Found:
+
+Error : AssertionError - 
+Timestamp: 2026-11-03 03:16:53.140500
