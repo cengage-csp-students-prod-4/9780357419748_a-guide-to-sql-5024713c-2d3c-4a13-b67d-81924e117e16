@@ -116,7 +116,7 @@ CREATE TABLE `RESIDENTS` (
   `SURNAME` varchar(20) NOT NULL,
   `PROPERTY_ID` smallint NOT NULL,
   PRIMARY KEY (`RESIDENT_ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -125,7 +125,7 @@ CREATE TABLE `RESIDENTS` (
 
 LOCK TABLES `RESIDENTS` WRITE;
 /*!40000 ALTER TABLE `RESIDENTS` DISABLE KEYS */;
-INSERT INTO `RESIDENTS` VALUES (1,'Albie ','O’Ryan',1),(2,'Tariq ','Khan',1),(3,'Ismail ','Salib',1),(4,'Callen ','Beck',2),(5,'Milosz ','Polansky',2),(6,'Ashanti ','Lucas',2),(7,'Randy ','Woodrue',2),(8,'Aislinn ','Lawrence',3),(9,'Monique ','French',3),(10,'Amara ','Dejsuwan',4),(12,'Rosalie ','Blackmore',4),(13,'Carina ','Britton',4),(14,'Valentino ','Ortega',5),(15,'Kaylem ','Kent',5),(16,'Alessia ','Wagner',6),(17,'Tyrone ','Galvan',6),(18,'Constance ','Fleming',6),(19,'Eamonn ','Bain',6),(20,'Misbah ','Yacob',7),(21,'Gianluca ','Esposito',7),(22,'Elinor ','Lake',7),(23,'Ray ','Rosas',8),(24,'Damon ','Caldwell',8),(25,'Dawood ','Busby',8),(26,'Dora ','Harris',8),(27,'Leroy ','Stokes',8),(28,'Tamia ','Hess',9),(29,'Amelia ','Sanders',9),(30,'Zarah ','Byers',10),(31,'Sara ','Farrow',10),(32,'Delilah ','Roy',10),(33,'Dougie ','McDaniel',11),(34,'Tahir ','Halabi',11),(35,'Mila ','Zhikin',12),(36,'Glenn ','Donovan',12),(37,'Zayn ','Fowler',12),(38,'Ece','Yilmaz',13),(39,'Jasmine','Lawrence',13);
+INSERT INTO `RESIDENTS` VALUES (1,'Albie ','O’Ryan',1),(2,'Tariq ','Khan',1),(3,'Ismail ','Salib',1),(4,'Callen ','Beck',2),(5,'Milosz ','Polansky',2),(6,'Ashanti ','Lucas',2),(7,'Randy ','Woodrue',2),(8,'Aislinn ','Lawrence',3),(9,'Monique ','French',3),(10,'Amara ','Dejsuwan',4),(12,'Rosalie ','Blackmore',4),(13,'Carina ','Britton',4),(14,'Valentino ','Ortega',5),(15,'Kaylem ','Kent',5),(16,'Alessia ','Wagner',6),(17,'Tyrone ','Galvan',6),(18,'Constance ','Fleming',6),(19,'Eamonn ','Bain',6),(20,'Misbah ','Yacob',7),(21,'Gianluca ','Esposito',7),(22,'Elinor ','Lake',7),(23,'Ray ','Rosas',8),(24,'Damon ','Caldwell',8),(25,'Dawood ','Busby',8),(26,'Dora ','Harris',8),(27,'Leroy ','Stokes',8),(28,'Tamia ','Hess',9),(29,'Amelia ','Sanders',9),(30,'Zarah ','Byers',10),(31,'Sara ','Farrow',10),(32,'Delilah ','Roy',10),(33,'Dougie ','McDaniel',11),(34,'Tahir ','Halabi',11),(35,'Mila ','Zhikin',12),(36,'Glenn ','Donovan',12),(37,'Zayn ','Fowler',12),(38,'Ece','Yilmaz',13),(39,'Jasmine','Lawrence',13),(40,'Yigit','Yilmaz',13);
 /*!40000 ALTER TABLE `RESIDENTS` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -197,4 +197,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-03  4:07:53
+-- Dump completed on 2026-11-03  4:08:36
