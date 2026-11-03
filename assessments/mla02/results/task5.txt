@@ -1,0 +1,114 @@
+
+Status: FAILED!
+Check: 1
+Test: Return a list of all the residents and owners
+Reason: Expected:
++-------------------+
+|    PARTICIPANT    |
++-------------------+
+|   Albie O’Ryan    |
+|    Tariq Khan     |
+|   Ismail Salib    |
+|    Callen Beck    |
+|  Milosz Polansky  |
+|   Ashanti Lucas   |
+|   Randy Woodrue   |
+| Aislinn Lawrence  |
+|  Monique French   |
+|  Amara Dejsuwan   |
+| Rosalie Blackmore |
+|  Carina Britton   |
+| Valentino Ortega  |
+|    Kaylem Kent    |
+|  Alessia Wagner   |
+|   Tyrone Galvan   |
+| Constance Fleming |
+|    Eamonn Bain    |
+|   Misbah Yacob    |
+| Gianluca Esposito |
+|    Elinor Lake    |
+|     Ray Rosas     |
+|  Damon Caldwell   |
+|   Dawood Busby    |
+|    Dora Harris    |
+|   Leroy Stokes    |
+|    Tamia Hess     |
+|  Amelia Sanders   |
+|    Zarah Byers    |
+|    Sara Farrow    |
+|    Delilah Roy    |
+|  Dougie McDaniel  |
+|   Tahir Halabi    |
+|    Mila Zhikin    |
+|   Glenn Donovan   |
+|    Zayn Fowler    |
+|     EceYilmaz     |
+|  JasmineLawrence  |
+|    CeydaAksoy     |
+|   NicoleBianchi   |
+|    ErnestBurke    |
+|    MeerabCole     |
+|   AmmarahJones    |
+|  JakubKowalczyk   |
+|    JanineLopez    |
+|   Elle-MayMoore   |
+|    MakeshPatel    |
+|    SethRedman     |
+|    HaydonSims     |
++-------------------+
+Found:
++--------------------+
+|    PARTICIPANT     |
++--------------------+
+|   Albie  O’Ryan    |
+|    Tariq  Khan     |
+|   Ismail  Salib    |
+|    Callen  Beck    |
+|  Milosz  Polansky  |
+|   Ashanti  Lucas   |
+|   Randy  Woodrue   |
+| Aislinn  Lawrence  |
+|  Monique  French   |
+|  Amara  Dejsuwan   |
+| Rosalie  Blackmore |
+|  Carina  Britton   |
+| Valentino  Ortega  |
+|    Kaylem  Kent    |
+|  Alessia  Wagner   |
+|   Tyrone  Galvan   |
+| Constance  Fleming |
+|    Eamonn  Bain    |
+|   Misbah  Yacob    |
+| Gianluca  Esposito |
+|    Elinor  Lake    |
+|     Ray  Rosas     |
+|  Damon  Caldwell   |
+|   Dawood  Busby    |
+|    Dora  Harris    |
+|   Leroy  Stokes    |
+|    Tamia  Hess     |
+|  Amelia  Sanders   |
+|    Zarah  Byers    |
+|    Sara  Farrow    |
+|    Delilah  Roy    |
+|  Dougie  McDaniel  |
+|   Tahir  Halabi    |
+|    Mila  Zhikin    |
+|   Glenn  Donovan   |
+|    Zayn  Fowler    |
+|     Ece Yilmaz     |
+|  Jasmine Lawrence  |
+|    Ceyda Aksoy     |
+|   Nicole Bianchi   |
+|    Ernest Burke    |
+|    Meerab Cole     |
+|   Ammarah Jones    |
+|  Jakub Kowalczyk   |
+|    Janine Lopez    |
+|   Elle-May Moore   |
+|    Makesh Patel    |
+|    Seth Redman     |
+|    Haydon Sims     |
++--------------------+
+Error : AssertionError - 
+Timestamp: 2026-11-03 03:55:29.747807
