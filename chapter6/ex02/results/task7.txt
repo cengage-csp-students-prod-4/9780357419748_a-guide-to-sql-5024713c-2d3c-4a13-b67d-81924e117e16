@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 7:** Change the bedrooms value in the `LARGE_PROPERTY` table to **null**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 03:19:13.980162
