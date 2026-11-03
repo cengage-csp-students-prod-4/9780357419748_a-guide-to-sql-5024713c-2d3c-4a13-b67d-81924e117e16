@@ -1,0 +1,29 @@
+
+Status: FAILED!
+Check: 1
+Test:  **Task 11:** Delete the `LARGE_PROPERTY` table from the database
+Reason: Expected:
++--------------------+
+| Tables_in_StayWell |
++--------------------+
+|       OFFICE       |
+|       OWNER        |
+|      PROPERTY      |
+|     RESIDENTS      |
+|  SERVICE_CATEGORY  |
+|  SERVICE_REQUEST   |
++--------------------+
+Found:
++--------------------+
+| Tables_in_StayWell |
++--------------------+
+|   LARGE_PROPERTY   |
+|       OFFICE       |
+|       OWNER        |
+|      PROPERTY      |
+|     RESIDENTS      |
+|  SERVICE_CATEGORY  |
+|  SERVICE_REQUEST   |
++--------------------+
+Error : AssertionError - 
+Timestamp: 2026-11-03 03:39:30.893095
