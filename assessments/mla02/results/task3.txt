@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Return a list of all the property owners having properties larger than **2,000** square feet
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 03:50:34.455377
