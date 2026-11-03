@@ -111,12 +111,12 @@ DROP TABLE IF EXISTS `RESIDENTS`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `RESIDENTS` (
-  `RESIDENT_ID` smallint NOT NULL,
+  `RESIDENT_ID` smallint NOT NULL AUTO_INCREMENT,
   `FIRST_NAME` varchar(20) NOT NULL,
   `SURNAME` varchar(20) NOT NULL,
   `PROPERTY_ID` smallint NOT NULL,
   PRIMARY KEY (`RESIDENT_ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -197,4 +197,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-03  4:07:07
+-- Dump completed on 2026-11-03  4:07:53
