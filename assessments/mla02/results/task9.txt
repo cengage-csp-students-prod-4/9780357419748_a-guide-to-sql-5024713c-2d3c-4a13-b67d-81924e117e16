@@ -1,0 +1,20 @@
+
+Status: FAILED!
+Check: 1
+Test: Query includes an insert statement for the **9 Houston Drive** location
+Reason: Unable to find 'INSERT INTO PROPERTY VALUES('14','1','9 HOUSTON DRIVE','1100','2','1',NULL,'MO100')' in the program.
+Error : str - AssertionError
+Timestamp: 2026-11-03 04:11:08.884980
+
+Status: FAILED!
+Check: 2
+Test: Query includes an insert statement for the '11 Village Drive' location
+Reason: Unable to find 'INSERT INTO PROPERTY VALUES('15','1','11 Village Drive','1300','3','1',NULL,'CO103')' in the program.
+Error : str - AssertionError
+Timestamp: 2026-11-03 04:11:08.885387
+
+Status: PASSED!
+Check: 3
+Test: Add the provided property locations to the `PROPERTY` table
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-03 04:11:09.117211
