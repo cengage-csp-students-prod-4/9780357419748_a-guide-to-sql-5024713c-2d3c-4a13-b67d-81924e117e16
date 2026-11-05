@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Provide the StayWell team the number of gifts for each office
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 04:23:08.225632
