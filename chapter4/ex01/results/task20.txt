@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 20:** List the sum of the balances of all customers for each sales rep but restrict the output to those sales reps for which the sum is more than **$150**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:18:45.854316
