@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 11:** List the owner number and last name for all owners who live in Nevada (NV), Oregon (OR), or Idaho (ID)
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:57:20.050890
