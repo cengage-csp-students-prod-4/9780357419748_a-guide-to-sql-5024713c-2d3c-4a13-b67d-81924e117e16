@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 9:** List the property ID for every property managed by  the StayWell-Columbia City office whose monthly rent is less than **$1,500**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:55:44.011531
