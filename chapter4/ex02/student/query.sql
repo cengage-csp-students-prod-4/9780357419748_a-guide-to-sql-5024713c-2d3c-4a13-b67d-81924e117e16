@@ -1,1 +1,2 @@
--- Write your query here
+SELECT OWNER_NUM, LAST_NAME, FIRST_NAME
+FROM OWNER;
