@@ -1,46 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 22:** List the item ID, description, and discounted price for all items
-Reason: Expected:
-+---------+-------------------------------+--------+------------------+
-| ITEM_ID |          DESCRIPTION          | PRICE  | DISCOUNTED_PRICE |
-+---------+-------------------------------+--------+------------------+
-|  AD72   |      Dog Feeding Station      | 79.99  |      71.991      |
-|  BC33   | Feathers Bird Cage (12x24x18) | 79.99  |      71.991      |
-|  CA75   |  Enclosed Cat Litter Station  | 39.99  |      35.991      |
-|  DT12   |       Dog Toy Gift Set        | 39.99  |      35.991      |
-|  FM23   |      Fly Mask with Ears       | 24.95  |      22.455      |
-|  FS39   |     Folding Saddle Stand      | 39.99  |      35.991      |
-|  FS42   |     Aquarium (55 Gallon)      | 124.99 |     112.491      |
-|  KH81   |    Wild Bird Food (25 lb)     | 19.99  |      17.991      |
-|  LD14   |    Locking Small Dog Door     | 49.99  |      44.991      |
-|  LP73   |       Large Pet Carrier       | 59.99  |      53.991      |
-|  PF19   |       Pump & Filter Kit       | 74.99  |      67.491      |
-|  QB92   |    Quilted Stable Blanket     | 119.99 |     107.991      |
-|  SP91   |       Small Pet Carrier       | 39.99  |      35.991      |
-|  UF39   |   Underground Fence System    | 199.99 |     179.991      |
-|  WB49   |    Insulated Water Bucket     | 79.99  |      71.991      |
-+---------+-------------------------------+--------+------------------+
-Found:
-+---------+-------------------------------+--------+------------------+
-| ITEM_ID |          DESCRIPTION          | PRICE  | DISCOUNTED_PRICE |
-+---------+-------------------------------+--------+------------------+
-|  AD72   |      Dog Feeding Station      | 79.99  |     71.9910      |
-|  BC33   | Feathers Bird Cage (12x24x18) | 79.99  |     71.9910      |
-|  CA75   |  Enclosed Cat Litter Station  | 39.99  |     35.9910      |
-|  DT12   |       Dog Toy Gift Set        | 39.99  |     35.9910      |
-|  FM23   |      Fly Mask with Ears       | 24.95  |     22.4550      |
-|  FS39   |     Folding Saddle Stand      | 39.99  |     35.9910      |
-|  FS42   |     Aquarium (55 Gallon)      | 124.99 |     112.4910     |
-|  KH81   |    Wild Bird Food (25 lb)     | 19.99  |     17.9910      |
-|  LD14   |    Locking Small Dog Door     | 49.99  |     44.9910      |
-|  LP73   |       Large Pet Carrier       | 59.99  |     53.9910      |
-|  PF19   |       Pump & Filter Kit       | 74.99  |     67.4910      |
-|  QB92   |    Quilted Stable Blanket     | 119.99 |     107.9910     |
-|  SP91   |       Small Pet Carrier       | 39.99  |     35.9910      |
-|  UF39   |   Underground Fence System    | 199.99 |     179.9910     |
-|  WB49   |    Insulated Water Bucket     | 79.99  |     71.9910      |
-+---------+-------------------------------+--------+------------------+
-Error : AssertionError - 
-Timestamp: 2026-11-05 03:21:31.588122
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:22:59.363479
