@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 12:**  List the office number, property ID, square footage, and monthly rent for all properties. Sort the results by monthly rent within the square footage
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:57:50.780838
