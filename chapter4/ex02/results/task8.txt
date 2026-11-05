@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 8:** List the property ID for every property with a monthly rent that is between **$1,350** and **$1,750**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:54:57.990462
