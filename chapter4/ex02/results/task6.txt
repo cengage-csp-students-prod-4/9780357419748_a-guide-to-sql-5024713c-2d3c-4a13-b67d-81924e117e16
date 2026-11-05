@@ -1,0 +1,23 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 6:** List the office number and address for every property with three bedrooms
+Reason: Expected:
++------------+------------------------+
+| OFFICE_NUM |        ADDRESS         |
++------------+------------------------+
+|     1      |   30 West Thomas Rd.   |
+|     1      | 105 North Illinois Rd. |
+|     2      |   447 Goldfield St.    |
+|     2      |     891 Alton Dr.      |
+|     2      |    2 Bow Ridge Ave.    |
++------------+------------------------+
+Found:
++-------------+
+| PROPERTY_ID |
++-------------+
+|      9      |
+|     11      |
++-------------+
+Error : AssertionError - 
+Timestamp: 2026-11-05 03:49:31.518439
