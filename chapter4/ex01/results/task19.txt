@@ -1,0 +1,20 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 19:** List the **REP_ID** and the corresponding sum of the balances, as **BALANCE**, of all customers for each sales rep. Order and group the results by sales rep ID
+Reason: Expected:
++--------+---------+
+| REP_ID | BALANCE |
++--------+---------+
+|   05   | 709.43  |
+|   10   | 313.58  |
+|   15   | 412.36  |
++--------+---------+
+Found:
++------------+
+| MIN(PRICE) |
++------------+
+|   19.99    |
++------------+
+Error : AssertionError - 
+Timestamp: 2026-11-05 03:16:10.461264
