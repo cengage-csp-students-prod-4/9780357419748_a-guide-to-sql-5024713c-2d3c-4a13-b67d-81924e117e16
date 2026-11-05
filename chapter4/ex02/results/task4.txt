@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 4:** List the last name and first name of every owner who does not live in Seattle
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:47:38.172067
