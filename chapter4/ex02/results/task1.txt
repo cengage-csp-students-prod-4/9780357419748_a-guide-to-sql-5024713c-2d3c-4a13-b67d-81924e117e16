@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 1:** List the owner number, last name, and first name of every property owner
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:45:09.407968
