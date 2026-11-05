@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Provide a list of owner IDs (`OWNER_NUM`) for owners of more than one active property
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 04:22:09.194751
