@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Generate an overview of the `PROPERTY` table's structure
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 04:17:01.668383
