@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 21:** List the item ID, description, and category of all items that are in the `DOG` or `CAT` category and contain the word **Small** in the description
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:19:31.064508
