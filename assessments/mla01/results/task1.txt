@@ -1,0 +1,38 @@
+
+Status: PASSED!
+Check: 1
+Test: Create the `OWNER` table
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 04:07:14.434118
+
+Status: FAILED!
+Check: 2
+Test: Create the `PROPERTY` table
+Reason: Expected:
++--------------+--------------+------+-----+---------+-------+
+|    Field     |     Type     | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| PROPERTY_ID  |   smallint   |  NO  | PRI |  NULL   |       |
+|  OFFICE_NUM  |   tinyint    |  NO  |     |  NULL   |       |
+|   ADDRESS    | varchar(100) |  NO  |     |  NULL   |       |
+|    SQR_FT    |   smallint   |  NO  |     |  NULL   |       |
+|    BDRMS     |   tinyint    |  NO  |     |  NULL   |       |
+|    FLOORS    |   tinyint    |  NO  |     |  NULL   |       |
+| MONTHLY_RENT |   smallint   | YES  |     |  NULL   |       |
+|  OWNER_NUM   |   char(5)    |  NO  |     |  NULL   |       |
++--------------+--------------+------+-----+---------+-------+
+Found:
++--------------+--------------+------+-----+---------+-------+
+|    Field     |     Type     | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| PROPERTY_ID  |   smallint   |  NO  | PRI |  NULL   |       |
+|  OFFICE_NUM  |   tinyint    |  NO  |     |  NULL   |       |
+|   ADDRESS    | varchar(100) |  NO  |     |  NULL   |       |
+|    SQR_FT    |   smallint   |  NO  |     |  NULL   |       |
+|    BDRMS     |   tinyint    |  NO  |     |  NULL   |       |
+|    FLOORS    |   tinyint    |  NO  |     |  NULL   |       |
+| MONTHLY_RENT |   smallint   | YES  |     |  NULL   |       |
+|  OWNER_NUM   |   char(5)    |  NO  | MUL |  NULL   |       |
++--------------+--------------+------+-----+---------+-------+
+Error : AssertionError - 
+Timestamp: 2026-11-05 04:07:14.606859
