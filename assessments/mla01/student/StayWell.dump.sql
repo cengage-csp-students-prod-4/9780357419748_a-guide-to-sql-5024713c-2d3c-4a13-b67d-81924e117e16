@@ -99,7 +99,7 @@ CREATE TABLE `PROPERTY` (
 
 LOCK TABLES `PROPERTY` WRITE;
 /*!40000 ALTER TABLE `PROPERTY` DISABLE KEYS */;
-INSERT INTO `PROPERTY` VALUES (1,1,'30 West Thomas Rd.',1600,3,1,NULL,'BU106'),(2,1,'782 Queen Ln.',2100,4,2,NULL,'AK102'),(3,1,'9800 Sunbeam Ave.',1005,2,1,NULL,'BI109'),(4,1,'105 North Illinois Rd.',1750,3,1,NULL,'KO104'),(5,1,'887 Vine Rd.',1125,2,1,NULL,'SI105'),(6,1,'8 Laurel Dr.',2125,4,2,NULL,'MO100'),(7,2,'447 Goldfield St.',1675,3,2,NULL,'CO103'),(8,2,'594 Leatherwood Dr.',2700,5,2,NULL,'KO104'),(9,2,'504 Windsor Ave.',700,2,1,NULL,'PA101'),(10,2,'891 Alton Dr.',1300,3,1,NULL,'LO108'),(11,2,'9531 Sherwood Rd.',1075,2,1,NULL,'JO110'),(12,2,'2 Bow Ridge Ave.',1400,3,2,NULL,'RE107');
+INSERT INTO `PROPERTY` VALUES (1,1,'30 West Thomas Rd.',1600,3,1,NULL,'BU106'),(2,1,'782 Queen Ln.',2100,4,2,NULL,'AK102'),(3,1,'9800 Sunbeam Ave.',1005,2,1,NULL,'BI109'),(4,1,'105 North Illinois Rd.',1750,3,1,NULL,'KO104'),(5,1,'887 Vine Rd.',1125,2,1,NULL,'SI105'),(6,1,'8 Laurel Dr.',2125,4,2,NULL,'MO100'),(7,2,'447 Goldfield St.',1675,3,2,NULL,'CO103'),(8,2,'594 Leatherwood Dr.',2700,5,2,NULL,'KO104'),(9,2,'504 Windsor Ave.',700,2,1,NULL,'PA101'),(10,2,'891 Alton Dr.',1300,3,1,NULL,'LO108'),(11,2,'9531 Sherwood Rd.',1075,2,1,NULL,'JO110'),(12,2,'2 Bow Ridge Ave.',1400,3,2,NULL,'RE107'),(13,1,'916 Kent Drive',1200,3,1,NULL,'SI105');
 /*!40000 ALTER TABLE `PROPERTY` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -125,7 +125,7 @@ CREATE TABLE `RESIDENTS` (
 
 LOCK TABLES `RESIDENTS` WRITE;
 /*!40000 ALTER TABLE `RESIDENTS` DISABLE KEYS */;
-INSERT INTO `RESIDENTS` VALUES (1,'Albie ','O’Ryan',1),(2,'Tariq ','Khan',1),(3,'Ismail ','Salib',1),(4,'Callen ','Beck',2),(5,'Milosz ','Polansky',2),(6,'Ashanti ','Lucas',2),(7,'Randy ','Woodrue',2),(8,'Aislinn ','Lawrence',3),(9,'Monique ','French',3),(10,'Amara ','Dejsuwan',4),(12,'Rosalie ','Blackmore',4),(13,'Carina ','Britton',4),(14,'Valentino ','Ortega',5),(15,'Kaylem ','Kent',5),(16,'Alessia ','Wagner',6),(17,'Tyrone ','Galvan',6),(18,'Constance ','Fleming',6),(19,'Eamonn ','Bain',6),(20,'Misbah ','Yacob',7),(21,'Gianluca ','Esposito',7),(22,'Elinor ','Lake',7),(23,'Ray ','Rosas',8),(24,'Damon ','Caldwell',8),(25,'Dawood ','Busby',8),(26,'Dora ','Harris',8),(27,'Leroy ','Stokes',8),(28,'Tamia ','Hess',9),(29,'Amelia ','Sanders',9),(30,'Zarah ','Byers',10),(31,'Sara ','Farrow',10),(32,'Delilah ','Roy',10),(33,'Dougie ','McDaniel',11),(34,'Tahir ','Halabi',11),(35,'Mila ','Zhikin',12),(36,'Glenn ','Donovan',12),(37,'Zayn ','Fowler',12);
+INSERT INTO `RESIDENTS` VALUES (1,'Albie ','O’Ryan',1),(2,'Tariq ','Khan',1),(3,'Ismail ','Salib',1),(4,'Callen ','Beck',2),(5,'Milosz ','Polansky',2),(6,'Ashanti ','Lucas',2),(7,'Randy ','Woodrue',2),(8,'Aislinn ','Lawrence',3),(9,'Monique ','French',3),(10,'Amara ','Dejsuwan',4),(12,'Rosalie ','Blackmore',4),(13,'Carina ','Britton',4),(14,'Valentino ','Ortega',5),(15,'Kaylem ','Kent',5),(16,'Alessia ','Wagner',6),(17,'Tyrone ','Galvan',6),(18,'Constance ','Fleming',6),(19,'Eamonn ','Bain',6),(20,'Misbah ','Yacob',7),(21,'Gianluca ','Esposito',7),(22,'Elinor ','Lake',7),(23,'Ray ','Rosas',8),(24,'Damon ','Caldwell',8),(25,'Dawood ','Busby',8),(26,'Dora ','Harris',8),(27,'Leroy ','Stokes',8),(28,'Tamia ','Hess',9),(29,'Amelia ','Sanders',9),(30,'Zarah ','Byers',10),(31,'Sara ','Farrow',10),(32,'Delilah ','Roy',10),(33,'Dougie ','McDaniel',11),(34,'Tahir ','Halabi',11),(35,'Mila ','Zhikin',12),(36,'Glenn ','Donovan',12),(37,'Zayn ','Fowler',12),(38,'Ece','Yilmaz',13),(39,'Jasmine','Lawrence',13);
 /*!40000 ALTER TABLE `RESIDENTS` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -197,4 +197,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-05  4:16:31
+-- Dump completed on 2026-11-05  4:20:24
