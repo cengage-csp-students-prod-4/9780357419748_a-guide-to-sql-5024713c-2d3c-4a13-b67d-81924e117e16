@@ -1,0 +1,20 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 7:** List the property for every property with two bedrooms that is managed by the StayWell-Georgetown office
+Reason: Expected:
++-------------+------------+-------------------+--------+-------+--------+--------------+-----------+
+| PROPERTY_ID | OFFICE_NUM |      ADDRESS      | SQR_FT | BDRMS | FLOORS | MONTHLY_RENT | OWNER_NUM |
++-------------+------------+-------------------+--------+-------+--------+--------------+-----------+
+|      9      |     2      | 504 Windsor Ave.  |  700   |   2   |   1    |     1050     |   PA101   |
+|     11      |     2      | 9531 Sherwood Rd. |  1075  |   2   |   1    |     1100     |   JO110   |
++-------------+------------+-------------------+--------+-------+--------+--------------+-----------+
+Found:
++-------------+
+| PROPERTY_ID |
++-------------+
+|      9      |
+|     11      |
++-------------+
+Error : AssertionError - 
+Timestamp: 2026-11-05 03:49:56.255274
