@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 5:** List the location number and unit number for every property whose square footage is equal to or less than **1,400** square feet.
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:48:36.660045
