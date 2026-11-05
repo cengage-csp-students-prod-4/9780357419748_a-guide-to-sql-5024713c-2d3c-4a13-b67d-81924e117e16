@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Retrieve the three largest properties managed by StayWell
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 04:25:08.657705
