@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 14:** Calculate the total value of monthly rents for all properties, display this value in a column labeled **TOTAL_VALUE**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-05 03:59:01.128210
