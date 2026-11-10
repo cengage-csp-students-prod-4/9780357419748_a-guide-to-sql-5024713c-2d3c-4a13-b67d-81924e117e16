@@ -74,7 +74,8 @@ CREATE TABLE `OWNER` (
   `STATE` char(2) NOT NULL,
   `ZIP_CODE` char(5) NOT NULL,
   PRIMARY KEY (`OWNER_NUM`),
-  KEY `OWNER_INDEX1` (`STATE`)
+  KEY `OWNER_INDEX1` (`STATE`),
+  KEY `OWNER_INDEX2` (`LAST_NAME`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -301,4 +302,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-10  5:01:03
+-- Dump completed on 2026-11-10  5:02:53
