@@ -1,22 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 9:** Repeat *Task 8* without using the `INVOICE_TOTAL` `VIEW`
-Reason: Expected:
-+-------------+--------+
-| INVOICE_NUM | TOTAL  |
-+-------------+--------+
-|    14219    | 319.94 |
-|    14231    | 379.98 |
-|    14233    | 759.59 |
-+-------------+--------+
-Found:
-+-------------+--------------+
-| INVOICE_NUM | TOTAL_AMOUNT |
-+-------------+--------------+
-|    14219    |    319.94    |
-|    14231    |    379.98    |
-|    14233    |    759.59    |
-+-------------+--------------+
-Error : AssertionError - 
-Timestamp: 2026-11-10 02:16:18.959142
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 02:17:59.058603
