@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 21:** Create an index named `OWNER_INDEX3` on the `STATE` and `CITY` columns in the `OWNER` table. List the states in descending order
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 05:03:56.528567
