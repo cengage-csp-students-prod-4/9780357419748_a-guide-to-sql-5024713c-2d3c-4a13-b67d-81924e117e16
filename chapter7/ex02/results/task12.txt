@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 12:** Grant `UPDATE` privileges to **Johnson** and **Klein**
+Reason: Unable to find 'GRANT UPDATE ON PROPERTY TO JOHNSON' in the program.
+Error : str - AssertionError
+Timestamp: 2026-11-10 04:14:54.418985
+
+Status: FAILED!
+Check: 2
+Test: **Task 12:** Grant `UPDATE` privileges to **Johnson** and **Klein**
+Reason: Unable to find 'GRANT UPDATE ON PROPERTY TO KLEIN' in the program.
+Error : str - AssertionError
+Timestamp: 2026-11-10 04:14:54.419224
