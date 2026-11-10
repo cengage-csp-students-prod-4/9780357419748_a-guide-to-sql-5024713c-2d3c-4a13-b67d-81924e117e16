@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 25:** Add the `OWNER_NUM` column as a foreign key in the `PROPERTY` table
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 05:08:18.056012
