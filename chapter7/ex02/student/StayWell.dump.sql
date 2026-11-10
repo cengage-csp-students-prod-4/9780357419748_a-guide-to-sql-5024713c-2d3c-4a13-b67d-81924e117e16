@@ -16,6 +16,20 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Temporary view structure for view `MONTHLY_RENTS`
+--
+
+DROP TABLE IF EXISTS `MONTHLY_RENTS`;
+/*!50001 DROP VIEW IF EXISTS `MONTHLY_RENTS`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `MONTHLY_RENTS` AS SELECT 
+ 1 AS `BEDROOMS`,
+ 1 AS `AVG_SQUARE_FEET`,
+ 1 AS `AVG_MONTHLY_RENT`*/;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Table structure for table `OFFICE`
 --
 
@@ -224,6 +238,24 @@ SET character_set_client = @saved_cs_client;
 --
 
 --
+-- Final view structure for view `MONTHLY_RENTS`
+--
+
+/*!50001 DROP VIEW IF EXISTS `MONTHLY_RENTS`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_unicode_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `MONTHLY_RENTS` (`BEDROOMS`,`AVG_SQUARE_FEET`,`AVG_MONTHLY_RENT`) AS select `PROPERTY`.`BDRMS` AS `BDRMS`,avg(`PROPERTY`.`SQR_FT`) AS `AVG(SQR_FT)`,avg(`PROPERTY`.`MONTHLY_RENT`) AS `AVG(MONTHLY_RENT)` from `PROPERTY` group by `PROPERTY`.`BDRMS` order by `PROPERTY`.`BDRMS` */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
 -- Final view structure for view `PROPERTY_OWNERS`
 --
 
@@ -268,4 +300,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-10  3:44:49
+-- Dump completed on 2026-11-10  3:45:31
