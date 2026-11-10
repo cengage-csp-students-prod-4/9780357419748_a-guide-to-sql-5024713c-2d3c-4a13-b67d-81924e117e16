@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 18:** Revoke all privileges from user **Adams**
-Reason: Unable to find 'REVOKE ALL ON PROPERTY FROM ADAMS' in the program.
-Error : str - AssertionError
-Timestamp: 2026-11-10 04:52:26.190673
+Reason: 'REVOKE ALL ON PROPERTY FROM ADAMS' was found in the program output.None
+Timestamp: 2026-11-10 05:00:43.486446
