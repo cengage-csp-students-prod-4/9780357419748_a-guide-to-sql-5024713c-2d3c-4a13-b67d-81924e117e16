@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 3:** Without using the `MAJOR_CUSTOMER` `VIEW`, retrieve the customer ID, first name, and last name for every customer whose credit limit is **$500** or less
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 02:08:16.896804
