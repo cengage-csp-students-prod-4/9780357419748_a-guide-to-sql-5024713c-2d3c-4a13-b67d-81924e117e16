@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 2:** Write the command to retrieve the customer ID, first name, and last name of each customer in the `MAJOR_CUSTOMER` `VIEW` with a balance that exceeds the credit limit
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 02:06:34.329420
