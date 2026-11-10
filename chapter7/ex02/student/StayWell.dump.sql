@@ -105,7 +105,9 @@ CREATE TABLE `PROPERTY` (
   `FLOORS` tinyint NOT NULL,
   `MONTHLY_RENT` smallint DEFAULT NULL,
   `OWNER_NUM` char(5) NOT NULL,
-  PRIMARY KEY (`PROPERTY_ID`)
+  PRIMARY KEY (`PROPERTY_ID`),
+  KEY `OWNER_NUM` (`OWNER_NUM`),
+  CONSTRAINT `PROPERTY_ibfk_1` FOREIGN KEY (`OWNER_NUM`) REFERENCES `OWNER` (`OWNER_NUM`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -302,4 +304,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-10  5:07:05
+-- Dump completed on 2026-11-10  5:07:50
