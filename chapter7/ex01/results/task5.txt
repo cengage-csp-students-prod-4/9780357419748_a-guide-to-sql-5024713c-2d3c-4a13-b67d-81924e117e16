@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 5:** Write the command to retrieve items from the `ITEM_INVOICE` `VIEW` with a quoted prices that exceed **$100**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 02:11:30.955894
