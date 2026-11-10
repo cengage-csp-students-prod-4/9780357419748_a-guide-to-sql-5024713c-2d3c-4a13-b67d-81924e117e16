@@ -104,6 +104,24 @@ INSERT INTO `PROPERTY` VALUES (1,1,'30 West Thomas Rd.',1600,3,1,NULL,'BU106'),(
 UNLOCK TABLES;
 
 --
+-- Temporary view structure for view `PROPERTY_OWNERS`
+--
+
+DROP TABLE IF EXISTS `PROPERTY_OWNERS`;
+/*!50001 DROP VIEW IF EXISTS `PROPERTY_OWNERS`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `PROPERTY_OWNERS` AS SELECT 
+ 1 AS `PROPERTY_ID`,
+ 1 AS `OFFICE_NUM`,
+ 1 AS `SQR_FT`,
+ 1 AS `BDRMS`,
+ 1 AS `FLOORS`,
+ 1 AS `MONTHLY_RENT`,
+ 1 AS `LAST_NAME`*/;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Table structure for table `RESIDENTS`
 --
 
@@ -206,6 +224,24 @@ SET character_set_client = @saved_cs_client;
 --
 
 --
+-- Final view structure for view `PROPERTY_OWNERS`
+--
+
+/*!50001 DROP VIEW IF EXISTS `PROPERTY_OWNERS`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_unicode_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `PROPERTY_OWNERS` AS select `P`.`PROPERTY_ID` AS `PROPERTY_ID`,`P`.`OFFICE_NUM` AS `OFFICE_NUM`,`P`.`SQR_FT` AS `SQR_FT`,`P`.`BDRMS` AS `BDRMS`,`P`.`FLOORS` AS `FLOORS`,`P`.`MONTHLY_RENT` AS `MONTHLY_RENT`,`O`.`LAST_NAME` AS `LAST_NAME` from (`PROPERTY` `P` join `OWNER` `O` on((`P`.`OWNER_NUM` = `O`.`OWNER_NUM`))) where (`P`.`BDRMS` = 3) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
 -- Final view structure for view `SMALL_PROPERTY`
 --
 
@@ -232,4 +268,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-10  3:08:55
+-- Dump completed on 2026-11-10  3:09:54
