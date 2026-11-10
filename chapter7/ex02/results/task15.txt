@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 15:** Grant privileges for **Adams** to create an index on the `SERVICE_REQUEST` table
+Reason: 'GRANT INDEX ON SERVICE_REQUEST TO ADAMS' was found in the program output.None
+Timestamp: 2026-11-10 04:32:15.088816
