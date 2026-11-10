@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test:  **Task 7:** Create the `MONTHLY_RENTS` `VIEW`
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 03:45:55.147780
