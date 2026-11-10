@@ -1,16 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 5:** Using the `PROPERTY_OWNERS` `VIEW` information on every property with a monthly rent of less than **$1675**
-Reason: Expected:
-+-------------+------------+--------+-------+--------+--------------+-----------+
-| PROPERTY_ID | OFFICE_NUM | SQR_FT | BDRMS | FLOORS | MONTHLY_RENT | LAST_NAME |
-+-------------+------------+--------+-------+--------+--------------+-----------+
-|      1      |     1      |  1600  |   3   |   1    |     1400     |   Burke   |
-|      4      |     1      |  1750  |   3   |   1    |     1650     | Kowalczyk |
-|     10      |     2      |  1300  |   3   |   1    |     1600     |   Lopez   |
-+-------------+------------+--------+-------+--------+--------------+-----------+
-Found:
-
-Error : AssertionError - 
-Timestamp: 2026-11-10 03:36:10.879859
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 03:38:09.711810
