@@ -1,15 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 3:** Retrieve the specified information without using the `SMALL_PROPERTY` `VIEW`
-Reason: Expected:
-+------------+-------------+--------------+
-| OFFICE_NUM | PROPERTY_ID | MONTHLY_RENT |
-+------------+-------------+--------------+
-|     2      |      9      |     1050     |
-|     2      |     11      |     1100     |
-+------------+-------------+--------------+
-Found:
-
-Error : AssertionError - 
-Timestamp: 2026-11-10 03:07:41.098613
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 03:09:17.026181
