@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 10:** User **Oliver** must be able to retrieve data from the `PROPERTY` table
-Reason: Unable to find 'GRANT SELECT ON PROPERTY TO OLIVER' in the program.
-Error : str - AssertionError
-Timestamp: 2026-11-10 03:58:13.555066
+Reason: 'GRANT SELECT ON PROPERTY TO OLIVER' was found in the program output.None
+Timestamp: 2026-11-10 04:05:32.225798
