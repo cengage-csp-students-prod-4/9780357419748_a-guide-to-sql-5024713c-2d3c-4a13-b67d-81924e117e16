@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 14:** Grant user **Klein** `DELETE` privileges on the `SERVICE_CATEGORY` table
+Reason: 'GRANT INSERT, DELETE ON SERVICE_CATEGORY TO KLEIN' was found in the program output.None
+Timestamp: 2026-11-10 04:31:35.389391
