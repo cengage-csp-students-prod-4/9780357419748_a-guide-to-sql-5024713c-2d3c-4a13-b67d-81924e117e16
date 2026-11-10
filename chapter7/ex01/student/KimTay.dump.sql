@@ -128,6 +128,24 @@ INSERT INTO `ITEM` VALUES ('AD72','Dog Feeding Station',12,'DOG','B',79.99),('BC
 UNLOCK TABLES;
 
 --
+-- Temporary view structure for view `ITEM_INVOICE`
+--
+
+DROP TABLE IF EXISTS `ITEM_INVOICE`;
+/*!50001 DROP VIEW IF EXISTS `ITEM_INVOICE`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `ITEM_INVOICE` AS SELECT 
+ 1 AS `ITEM_ID`,
+ 1 AS `DESCRIPTION`,
+ 1 AS `PRICE`,
+ 1 AS `INVOICE_NUM`,
+ 1 AS `INVOICE_DATE`,
+ 1 AS `QUANTITY`,
+ 1 AS `QUOTED_PRICE`*/;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Temporary view structure for view `MAJOR_CUSTOMER`
 --
 
@@ -181,6 +199,24 @@ UNLOCK TABLES;
 --
 
 --
+-- Final view structure for view `ITEM_INVOICE`
+--
+
+/*!50001 DROP VIEW IF EXISTS `ITEM_INVOICE`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_unicode_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `ITEM_INVOICE` AS select `I`.`ITEM_ID` AS `ITEM_ID`,`I`.`DESCRIPTION` AS `DESCRIPTION`,`I`.`PRICE` AS `PRICE`,`INV`.`INVOICE_NUM` AS `INVOICE_NUM`,`INV`.`INVOICE_DATE` AS `INVOICE_DATE`,`IL`.`QUANTITY` AS `QUANTITY`,`IL`.`QUOTED_PRICE` AS `QUOTED_PRICE` from ((`INVOICE_LINE` `IL` join `INVOICES` `INV` on((`IL`.`INVOICE_NUM` = `INV`.`INVOICE_NUM`))) join `ITEM` `I` on((`IL`.`ITEM_ID` = `I`.`ITEM_ID`))) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
 -- Final view structure for view `MAJOR_CUSTOMER`
 --
 
@@ -207,4 +243,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-11-10  2:07:47
+-- Dump completed on 2026-11-10  2:08:27
