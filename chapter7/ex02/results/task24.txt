@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 24:** List every table that contains a column named `OWNER_NUM`
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 05:07:33.757239
