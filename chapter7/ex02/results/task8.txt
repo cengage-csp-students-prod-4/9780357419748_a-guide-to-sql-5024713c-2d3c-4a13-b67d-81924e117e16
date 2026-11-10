@@ -1,20 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 8:** Write and execute the command to retrieve the square footage and average monthly rent for each property for which the average monthly rent is greater than **$1,400**
-Reason: Expected:
-+-----------------+------------------+
-| AVG_SQUARE_FEET | AVG_MONTHLY_RENT |
-+-----------------+------------------+
-|    1545.0000    |    1610.0000     |
-|    2112.5000    |    1975.0000     |
-|    2700.0000    |    2750.0000     |
-+-----------------+------------------+
-Found:
-+----------+-----------------+------------------+
-| BEDROOMS | AVG_SQUARE_FEET | AVG_MONTHLY_RENT |
-+----------+-----------------+------------------+
-|    3     |    1545.0000    |    1550.0000     |
-+----------+-----------------+------------------+
-Error : AssertionError - 
-Timestamp: 2026-11-10 03:46:40.359521
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 03:49:15.523365
