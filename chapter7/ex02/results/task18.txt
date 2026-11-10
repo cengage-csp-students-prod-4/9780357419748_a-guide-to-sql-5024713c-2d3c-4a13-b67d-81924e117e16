@@ -4,4 +4,4 @@ Check: 1
 Test: **Task 18:** Revoke all privileges from user **Adams**
 Reason: Unable to find 'REVOKE ALL ON PROPERTY FROM ADAMS' in the program.
 Error : str - AssertionError
-Timestamp: 2026-11-10 04:46:53.653814
+Timestamp: 2026-11-10 04:52:26.190673
