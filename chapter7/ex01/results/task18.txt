@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 18:** Delete the index named `ITEM_INDEX3`.
+Reason: Expected:
++----------+
+| COUNT(*) |
++----------+
+|    0     |
++----------+
+Found:
++----------+
+| COUNT(*) |
++----------+
+|    2     |
++----------+
+Error : AssertionError - 
+Timestamp: 2026-11-10 02:40:44.391559
