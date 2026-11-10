@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 19:** Create an index named `OWNER_INDEX1` on the `STATE` column in the `OWNER` table
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 05:01:29.844831
