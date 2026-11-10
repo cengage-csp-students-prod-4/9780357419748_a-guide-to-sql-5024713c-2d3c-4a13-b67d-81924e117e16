@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 8:** Using the `INVOICE_TOTAL` `VIEW` write and execute the command to retrieve the invoice number and invoice total for only those orders totaling more than **$250**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 02:15:25.385456
