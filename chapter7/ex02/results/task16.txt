@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 16:** Grant `ALTER` privileges to **Adams** and **Klein** on the `PROPERTY` table
+Reason: 'GRANT ALTER ON PROPERTY TO ADAMS' was found in the program output.None
+Timestamp: 2026-11-10 04:38:13.466040
+
+Status: PASSED!
+Check: 2
+Test: **Task 16:** Grant `ALTER` privileges to **Adams** and **Klein** on the `PROPERTY` table
+Reason: 'GRANT ALTER ON PROPERTY TO KLEIN' was found in the program output.None
+Timestamp: 2026-11-10 04:38:13.466217
